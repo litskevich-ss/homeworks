@@ -1,0 +1,35 @@
+body {
+  font-family: Tahoma;
+  font-weight: 700;
+  color: #333333;
+}
+
+.title {
+  margin-top: 70px;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block .caption {
+  margin-top: 21px;
+  max-width: 122px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.col-md-9,
+.col-md-3 {
+  border: 1px solid red;
+}

@@ -1,0 +1,169 @@
+$base-color: #33aaff
+
+
+$red: red($base-color)
+
+$green: green($base-color)
+
+$bule: blue($base-color)
+
+$color-1: rgb($red - 51, $green - 140, $bule - 204)
+
+$color-2: rgb($red, $green, $bule)
+
+$color-3: rgb($red + 51, $green - 8, $bule - 51)
+
+$color-4: rgb($red + 102, $green - 17, $bule - 102)
+
+$color-5: rgb($red + 153, $green + 64, $bule)
+
+$color-6: rgb($red + 204, $green - 119, $bule - 187)
+
+$color-7: rgb($red + 204, $green + 85, $bule) 
+
+
+body, p, h1, h2, h3, h4 
+  margin: 0
+  padding: 0
+  font-family: Arial, Helvetica, sans-serif
+
+
+.header 
+  background-color: $color-1
+  padding: 15px 0
+  color: $color-7
+  &__title 
+    font-size: 18px
+    font-weight: 700
+    line-height: 47px
+  &__callback 
+    text-align: right
+
+
+.section 
+  padding: 70px 0
+  text-align: center
+  &__title 
+    font-size: 36px
+    font-weight: 700
+    color: $color-1
+    & span 
+        color: $color-6
+  &__underline 
+    margin: 10px auto
+    width: 200px
+    height: 2px
+    background-color: $color-2
+
+.coral 
+  color: $color-6
+
+.main 
+  background-color: $color-5
+  position: relative
+  & h1 
+    margin-bottom: 25px
+    font-size: 60px
+    font-weight: 300
+    text-transform: uppercase
+    color: $color-1
+  & .sep 
+      margin: 25px auto
+      width: 20px
+      height: 20px
+      border-radius: 50%
+      background-color: $color-7
+  & h3 
+      font-size: 36px
+      font-weight: 300
+      color: $color-1
+  &__location 
+    margin: 24px auto 21px
+    width: 300px
+    height: 64px
+    font-size: 18px
+    line-height: 64px
+    color: $color-2
+    border: 1px solid $color-1
+  & .comment 
+      margin-top: 55px
+      color: $color-4
+      font-size: 14px
+      line-height: 18px
+
+.problems
+  &__list 
+    text-align: left
+    & ul
+        list-style: none
+        & li
+            min-height: 100px
+            font-size: 18px
+            font-weight: 300
+            color: $color-1
+            &::before 
+              position: relative
+              right: 30px
+              top: 25px
+              content: ''
+              display: block
+              width: 20px
+              height: 20px
+              background-color: $color-2
+              border-radius: 50%
+  &__wrapper 
+    margin: 0 auto
+    padding: 30px
+    max-width: 700px
+    border: 2px solid $color-2
+    & p 
+        margin-bottom: 10px
+        font-size: 24px
+        color: $color-1
+
+.prove 
+  background-color: $color-5
+  &__img 
+    margin: 25px auto 10px
+    min-height: 70px
+  & img 
+      border-bottom: 1px solid $color-2
+
+.footer 
+  padding: 15px 0
+  font-size: 14px
+  font-weight: 300
+  background-color: $color-1
+  &__left 
+    color: $color-3
+    opacity: 0.5
+  &__right 
+    text-align: right
+    color: $color-2
+    & a 
+        color: $color-2
+        text-decoration: none
+        &:hover 
+            text-decoration: underline
+
+.button 
+  padding: 10px 30px
+  display: inline-block
+  cursor: pointer
+  font-size: 14px
+  font-weight: 700
+  text-align: center
+  text-transform: uppercase
+  color: $color-7
+  background-color: $color-6
+  border: 1px solid $color-6
+  border-radius: 25px
+  &__start 
+    margin-top: 20px
+  &:hover 
+      -webkit-box-shadow: 0 0 25px $color-4
+              box-shadow: 0 0 25px $color-4
+      background-color: $color-2
+      border: 1px solid $color-5
+  &:focus 
+      outline: none

@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+  text-align: justify;
+  background: url(../img/bg.jpg) fixed center;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  color: #420301;
+}
+
+h2 {
+  text-align: center;
+  color: #420301;
+}
+
+ul.list {
+  position: fixed;
+  margin: 120px 0 0 820px;
+  padding: 365px 0 0 85px;
+  width: 490px;
+  height: 809px;
+  min-width: 490px;
+  background: url(../img/bg-list.png) no-repeat;
+  background-size: 490px 809px;
+
+  list-style-type: square;
+}
+
+ul.list a {
+  font-size: 1.15em;
+  letter-spacing: 0.1em;
+  text-shadow:  2px 1px #b8a882, 3px 3px 10px rgba(0,0,0,.5);
+  color:#420301;
+}
+
+ul li {
+  padding-bottom: 3px;
+  list-style-image: url(../img/small-ring.png);
+}
+
+ul li ul li {
+  list-style-image: none;
+}
+
+a {
+  color: #420301;
+}
+
+a,
+a:visited {
+  color: #420301;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a span,
+a:visited span {
+  font-style: italic;
+  font-weight: normal;
+}
+
+a:hover span,
+a:active span {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+img.left {
+  margin: 20px 25px 10px 0;
+  float: left;
+}
+
+img.right {
+  margin: 20px 0 10px 25px;
+  float: right;
+}
+
+mark {
+  padding: 2px;
+  font-size: small;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.container-top {
+  width: 900px;
+  margin-top: 50px;
+  padding-top: 376px;
+  background: url(../img/bg-1.png) no-repeat;
+  background-size: 100% 376px;
+}
+
+.container-main {
+  width: 900px;
+  background: url(../img/bg-2.png) repeat-y;
+  background-size: 100% 189px;
+}
+
+.container-bottom {
+  width: 900px;
+  height: 315px;
+  margin-bottom: 100px;
+  background: url(../img/bg-3.png) no-repeat;
+  background-size: 100% 315px;
+}
+
+.content {
+  padding: 0 100px 0 100px;
+}
+
+.content-image {
+  width: 300px;
+}
+
+.width {
+  width: 100%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.title {
+  position: relative;
+  left: 210px;
+  top: 360px;
+  width: 300px;
+}
+
+.title-image {
+  position: relative;
+  left: 410px;
+  top: 430px;
+  width: 100px;
+}
+
+.breaker {
+  display: block;
+  height: 30px;
+  margin: 50px 0 50px 0;
+  line-height: 2;
+  background: url(../img/breaker.svg) center no-repeat;
+  background-size: auto 30px;
+}
+
+.border {
+  padding: 0px;
+  border: 40px solid #420301;
+  border-image-source: url(../img/border.png);
+  border-image-width: 40px;
+  border-image-slice: 90;
+  border-image-repeat: round;
+}
+
+.fake-blok {
+  height: 190px;
+}
